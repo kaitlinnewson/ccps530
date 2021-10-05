@@ -1,0 +1,99 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 3em;
+    font-size: 18px;
+    background-image: url("../img/thimo-van-leeuwen.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0 5em;
+    /*line-height: 1.3em;*/
+    /* background: rgb(0,123,152);
+    background: linear-gradient(135deg, rgba(0,123,152,1) 21%, rgba(233,148,148,1) 77%); */
+}
+
+.inner-body {
+    background: white;
+    padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Yaldevi', sans-serif;
+    color: #41602e;
+}
+
+header {
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+
+}
+
+a:hover,
+a:visited,
+a:focus {
+    text-decoration: none;
+    border-bottom: 1px solid;
+
+}
+
+hr {
+    color: rgb(207, 207, 207);
+    border: 1px dashed;
+}
+
+th {
+    text-align: left;
+    padding: 0.2em 0.5em;
+    
+}
+
+td {
+    padding: 0.2em 0.5em;
+}
+
+.profile {
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 2.5em;
+}
+
+.title {
+    font-size: 1.5em;
+    font-family: 'Yaldevi', sans-serif;
+}
+
+ul.social {
+    list-style-type: none;
+    font-size: 2em;
+    margin: 0;
+}
+
+.social a {
+    border-bottom: none;
+    color: #406123;
+}
+
+.social a:hover,
+.social a:visited,
+.social a:focus {
+    border-bottom: none;
+    color: #578331;
+}
+
+.social li {
+    display: inline;
+}
+
+footer {
+    padding-top: 1em;
+    text-align: center;
+}
