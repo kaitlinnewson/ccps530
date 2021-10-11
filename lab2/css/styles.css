@@ -39,6 +39,7 @@ header {
 a {
     text-decoration: none;
     border-bottom: 1px dotted;
+    color: #10550e;
 }
 
 a:hover,
@@ -46,6 +47,7 @@ a:visited,
 a:focus {
     text-decoration: none;
     border-bottom: 1px solid;
+    color: #453472;
 }
 
 hr {
@@ -67,6 +69,7 @@ th, td {
     max-width: 20%;
     height: auto;
     border-radius: 50%;
+    filter: brightness(85%) sepia(40%);
 }
 
 .name {
