@@ -35,10 +35,13 @@ let books = [
 // List site functions available
 app.get('/', function(req, res){
 
-  const options = '<ul> \
+  const options = '<h1>Book Inventory App</h1> \
+                  <ul> \
                   <li><a href="/bookinventory/list">List all books</a></li> \
+                  <li><a href="/bookinventory/listjson">List all books as JSON</a></li> \
                   <li><a href="/bookinventory/add">Add a new book</a></li> \
-                 </ul>'
+                 </ul> \
+                 <small>Created by Kaitlin Newson for CCPS 530, Nov. 2021</small>'
 
   res.send(options);
 });
