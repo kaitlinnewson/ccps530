@@ -56,7 +56,11 @@ app.get('/bookinventory/list', function(req, res) {
    }
    html += '</p><br>'
 
-  res.send('<h1>List of books</h1>' + html);
+  res.send('<h1>List of books</h1><p><a href="/bookinventory/listjson">View list as JSON</a></p>' + html);
+});
+
+app.get('/bookinventory/listjson', function(req, res) {
+  res.send(books);
 });
 
 // Add a new book to the inventory
