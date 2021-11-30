@@ -1,2 +1,3 @@
 # ccps530
-Labs for CCPS 530 - Web Systems Development
+
+Labs and final project for CCPS 530 - Web Systems Development
