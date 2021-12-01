@@ -1,4 +1,4 @@
-// Get file from Dataverse API
+// Get file from Dataverse API and load it on a map
 
 // initialize the map
 var map = L.map('map').fitWorld();
@@ -26,7 +26,6 @@ function loadMap(event){
         return response.json();
     })
     .then(function (mapJSON) {
-        // TODO: clear previous map layers
         let geoJson = L.geoJSON(mapJSON).addTo(map);
         map.fitBounds(geoJson.getBounds());
     }).catch(console.error);
